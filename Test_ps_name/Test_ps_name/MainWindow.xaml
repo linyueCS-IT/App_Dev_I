@@ -1,0 +1,21 @@
+﻿<Window x:Class="Test_ps_name.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test_ps_name"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid>
+        <TextBlock Text="EmployeeId:" VerticalAlignment="Top" Margin="50,50,0,0"/>
+        <TextBox Name="txtId" Width="200" Height="25" Margin="150,50,0,0" VerticalAlignment="Top"/>
+        <TextBlock Text="FirstName" VerticalAlignment="Top" Margin="50,100,0,0"/>
+        <TextBox Name="txtFirstName" Width="200" Height="25" Margin="150,100,0,0" VerticalAlignment="Top"/>
+        
+
+
+        <Button Content="Login" Width="100" Height="30" Margin="150,160,0,0" VerticalAlignment="Top"
+                Click="LoginButton_Clicked"/>
+
+    </Grid>
+</Window>
