@@ -1,0 +1,14 @@
+C:\Users\6197673\source\repos\Test_Math\Test_Math\bin\Debug\net8.0\Math.exe
+C:\Users\6197673\source\repos\Test_Math\Test_Math\bin\Debug\net8.0\Math.deps.json
+C:\Users\6197673\source\repos\Test_Math\Test_Math\bin\Debug\net8.0\Math.runtimeconfig.json
+C:\Users\6197673\source\repos\Test_Math\Test_Math\bin\Debug\net8.0\Math.dll
+C:\Users\6197673\source\repos\Test_Math\Test_Math\bin\Debug\net8.0\Math.pdb
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\Math.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\Math.AssemblyInfoInputs.cache
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\Math.AssemblyInfo.cs
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\Math.csproj.CoreCompileInputs.cache
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\Math.dll
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\refint\Math.dll
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\Math.pdb
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\Math.genruntimeconfig.cache
+C:\Users\6197673\source\repos\Test_Math\Test_Math\obj\Debug\net8.0\ref\Math.dll
