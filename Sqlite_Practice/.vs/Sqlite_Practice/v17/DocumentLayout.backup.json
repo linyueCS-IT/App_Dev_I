@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\Sqlite_Practice\\",
+  "WorkspaceRootPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Sqlite_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B65A00B-8CD3-4819-BD2C-E6E69F5F447B}|Sqlite_Practice\\Sqlite_Practice.csproj|c:\\users\\selina\\source\\repos\\application_developmenti\\sqlite_practice\\sqlite_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B65A00B-8CD3-4819-BD2C-E6E69F5F447B}|Sqlite_Practice\\Sqlite_Practice.csproj|c:\\users\\selina\\source\\repos\\app_dev_i\\sqlite_practice\\sqlite_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B65A00B-8CD3-4819-BD2C-E6E69F5F447B}|Sqlite_Practice\\Sqlite_Practice.csproj|solutionrelative:sqlite_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\Sqlite_Practice\\Sqlite_Practice\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Sqlite_Practice\\Sqlite_Practice\\Program.cs",
               "RelativeDocumentMoniker": "Sqlite_Practice\\Program.cs",
-              "ToolTip": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\Sqlite_Practice\\Sqlite_Practice\\Program.cs",
+              "ToolTip": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Sqlite_Practice\\Sqlite_Practice\\Program.cs",
               "RelativeToolTip": "Sqlite_Practice\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAswKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T16:24:57.131Z",
               "EditorCaption": ""

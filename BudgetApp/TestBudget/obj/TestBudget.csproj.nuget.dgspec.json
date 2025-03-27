@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\TestBudget\\TestBudget.csproj": {}
+    "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\TestBudget\\TestBudget.csproj": {}
   },
   "projects": {
-    "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
+    "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\BudgetApp.csproj",
+        "projectUniqueName": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\BudgetApp.csproj",
         "projectName": "BudgetApp",
-        "projectPath": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\BudgetApp.csproj",
+        "projectPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\BudgetApp.csproj",
         "packagesPath": "C:\\Users\\selina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\obj\\",
+        "outputPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -73,18 +73,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\TestBudget\\TestBudget.csproj": {
+    "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\TestBudget\\TestBudget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\TestBudget\\TestBudget.csproj",
+        "projectUniqueName": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\TestBudget\\TestBudget.csproj",
         "projectName": "TestBudget",
-        "projectPath": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\TestBudget\\TestBudget.csproj",
+        "projectPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\TestBudget\\TestBudget.csproj",
         "packagesPath": "C:\\Users\\selina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\TestBudget\\obj\\",
+        "outputPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\TestBudget\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
-                "projectPath": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\BudgetApp.csproj"
+              "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
+                "projectPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\BudgetApp.csproj"
               }
             }
           }
@@ -121,7 +121,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -160,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

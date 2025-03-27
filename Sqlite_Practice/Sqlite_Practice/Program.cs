@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 using System.Data.SqlClient;
 using System.Data.SQLite;
 namespace Sqlite_Practice
@@ -19,34 +20,34 @@ namespace Sqlite_Practice
             ColumnHeaders();
         }
 
-        //=====================================
+        //====================================================================================
         // C# SQLite version
-        //=====================================
+        //====================================================================================
         public static void GetVersion()
         {
             string cs = "Data Source=:memory:";
             string stm = "SELECT SQLITE_VERSION()";
 
-            using var con = new SQLiteConnection(cs);
+            using SQLiteConnection con = new SQLiteConnection(cs);
             con.Open();
 
-            using var cmd = new SQLiteCommand(stm, con);
+            using SQLiteCommand cmd = new SQLiteCommand(stm, con);
             string version = cmd.ExecuteScalar().ToString();
 
             Console.WriteLine($"SQLite version: {version}");
         }
 
-        //=====================================
+        //======================================================================================
         // C# SQLite create table
-        //=====================================
+        //======================================================================================
         public static void CreateTable()
         {
             string cs = @"URI=file:C:\sqlite\chinook.db";
 
-            using var con = new SQLiteConnection(cs);
+            using SQLiteConnection con = new SQLiteConnection(cs);
             con.Open();
 
-            using var cmd = new SQLiteCommand(con);
+            using SQLiteCommand cmd = new SQLiteCommand(con);
 
             cmd.CommandText = "DROP TABLE IF EXISTS cars";
             cmd.ExecuteNonQuery();
@@ -92,10 +93,10 @@ namespace Sqlite_Practice
         public static void PreparedStatements()
         {
             string cs = @"URI=file:C:\sqlite\chinook.db";
-            using var con = new SQLiteConnection(cs);
+            using SQLiteConnection con = new SQLiteConnection(cs);
             con.Open();
 
-            using var cmd = new SQLiteCommand(con);
+            using SQLiteCommand cmd = new SQLiteCommand(con);
             cmd.CommandText = "insert into cars(name, price) values (@name, @price)";
 
             cmd.Parameters.AddWithValue("@name", "BMW");
@@ -114,12 +115,12 @@ namespace Sqlite_Practice
         public static void SqlDataReader()
         {
             string cs = @"URI=file:C:\sqlite\chinook.db";
-            using var con = new SQLiteConnection(cs);
+            using SQLiteConnection con = new SQLiteConnection(cs);
             con.Open();
 
             string stm = "select * from cars limit 5";
 
-            using var cmd = new SQLiteCommand(stm,con);
+            using SQLiteCommand cmd = new SQLiteCommand(stm,con);
             using SQLiteDataReader rdr = cmd.ExecuteReader(); 
             
             while (rdr.Read())
@@ -138,7 +139,7 @@ namespace Sqlite_Practice
 
             string stm = "select * from cars limit 5";
 
-            using var cmd = new SQLiteCommand (stm,con);
+            using SQLiteCommand cmd = new SQLiteCommand (stm,con);
 
             using SQLiteDataReader rdr = cmd.ExecuteReader();
 
@@ -148,6 +149,27 @@ namespace Sqlite_Practice
             {
                 Console.WriteLine($"{rdr.GetInt32(0),-3} {rdr.GetString(1),-8} {rdr.GetInt32(2),8}");
             }
+        }
+        //==============================================================================================
+        // In the following example we print column headers with the data from a database table.
+        //==============================================================================================
+        public static void DeleteColumn()
+        {
+            string cs = @"URI=file:C:\sqlite\chinook.db";
+            using var con = new SQLiteConnection(cs);
+            con.Open();
+
+            string stm = "delete * from cars where id = 5";
+
+            using SQLiteCommand cmd = new SQLiteCommand(stm, con);
+            // Execute SQL statements such as INSERT, UPDATE, DELETE, etc.,
+            // and return the number of rows affected (that is, how many rows of data were affected by the SQL statement).
+            // if rowsAffected = 0, id doesn't exists
+            // if rowsAffected = 1 , effective 1 row means deleted id row
+            int rowsAffected = cmd.ExecuteNonQuery();
+            // Execute the query (SELECT) and return the value of the first row, first column,
+            // often used for queries such as COUNT(*) or SUM().
+            long count = (long)cmd.ExecuteScalar();
         }
     }
 }

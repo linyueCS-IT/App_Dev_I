@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8jvbUq9HhT0=",
+  "dgSpecHash": "mF0msSQmH/c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\Test_Math\\TestMathUtils\\MathUtilsTest.csproj",
+  "projectFilePath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Math\\TestMathUtils\\MathUtilsTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\selina\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\selina\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
@@ -94,26 +94,5 @@
     "C:\\Users\\selina\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
     "C:\\Users\\selina\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Net.Http' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7jgj-8wvc-jh57",
-      "libraryId": "System.Net.Http",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.RegularExpressions' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cmhx-cq75-c4mj",
-      "libraryId": "System.Text.RegularExpressions",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

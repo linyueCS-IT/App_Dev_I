@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice\\Test_Database_Practice.csproj": {}
+    "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice\\Test_Database_Practice.csproj": {
+    "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice\\Test_Database_Practice.csproj",
+        "projectUniqueName": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice.csproj",
         "projectName": "Test_Database_Practice",
-        "projectPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice\\Test_Database_Practice.csproj",
+        "projectPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice.csproj",
         "packagesPath": "C:\\Users\\selina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\Test_Database_Practice\\obj\\",
+        "outputPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\Test_Database_Practice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -42,9 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -53,6 +53,10 @@
             "System.Data.SQLite": {
               "target": "Package",
               "version": "[1.0.119, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
             }
           },
           "imports": [
@@ -71,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\",
+  "WorkspaceRootPath": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5454EC02-0313-46B2-8360-844A1F17E1B6}|BudgetApp\\BudgetApp.csproj|c:\\users\\selina\\source\\repos\\application_developmenti\\budgetapp\\budgetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5454EC02-0313-46B2-8360-844A1F17E1B6}|BudgetApp\\BudgetApp.csproj|c:\\users\\selina\\source\\repos\\app_dev_i\\budgetapp\\budgetapp\\budgetfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5454EC02-0313-46B2-8360-844A1F17E1B6}|BudgetApp\\BudgetApp.csproj|solutionrelative:budgetapp\\budgetfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5454EC02-0313-46B2-8360-844A1F17E1B6}|BudgetApp\\BudgetApp.csproj|c:\\users\\selina\\source\\repos\\app_dev_i\\budgetapp\\budgetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5454EC02-0313-46B2-8360-844A1F17E1B6}|BudgetApp\\BudgetApp.csproj|solutionrelative:budgetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5454EC02-0313-46B2-8360-844A1F17E1B6}|BudgetApp\\BudgetApp.csproj|c:\\users\\selina\\source\\repos\\application_developmenti\\budgetapp\\budgetapp\\homebudget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5454EC02-0313-46B2-8360-844A1F17E1B6}|BudgetApp\\BudgetApp.csproj|c:\\users\\selina\\source\\repos\\app_dev_i\\budgetapp\\budgetapp\\homebudget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5454EC02-0313-46B2-8360-844A1F17E1B6}|BudgetApp\\BudgetApp.csproj|solutionrelative:budgetapp\\homebudget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -17,13 +21,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 154,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -41,29 +41,60 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BudgetFiles.cs",
+              "DocumentMoniker": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\BudgetFiles.cs",
+              "RelativeDocumentMoniker": "BudgetApp\\BudgetFiles.cs",
+              "ToolTip": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\BudgetFiles.cs",
+              "RelativeToolTip": "BudgetApp\\BudgetFiles.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:40:33.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\Program.cs",
               "RelativeDocumentMoniker": "BudgetApp\\Program.cs",
-              "ToolTip": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\Program.cs",
+              "ToolTip": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\Program.cs",
               "RelativeToolTip": "BudgetApp\\Program.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwMoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAALMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T00:56:48.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeBudget.cs",
-              "DocumentMoniker": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\HomeBudget.cs",
+              "DocumentMoniker": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\HomeBudget.cs",
               "RelativeDocumentMoniker": "BudgetApp\\HomeBudget.cs",
-              "ToolTip": "C:\\Users\\selina\\source\\repos\\Application_DevelopmentI\\BudgetApp\\BudgetApp\\HomeBudget.cs",
+              "ToolTip": "C:\\Users\\selina\\source\\repos\\App_Dev_I\\BudgetApp\\BudgetApp\\HomeBudget.cs",
               "RelativeToolTip": "BudgetApp\\HomeBudget.cs",
               "ViewState": "AgIAANUBAAAAAAAAAAAuwL8CAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T00:43:45.888Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 223,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

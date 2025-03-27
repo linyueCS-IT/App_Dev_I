@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Test_ps_name\\Test_ps_name"
+    "\\BudgetApp",
+    "\\BudgetApp\\BudgetApp",
+    "\\Sqlite_Practice",
+    "\\Sqlite_Practice\\Sqlite_Practice",
+    "\\Test_Database_Practice"
   ],
-  "SelectedNode": "\\Test_ps_name",
+  "SelectedNode": "\\BudgetApp\\BudgetApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

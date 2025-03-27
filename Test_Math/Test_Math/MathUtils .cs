@@ -17,5 +17,10 @@ namespace Math_Test
 
             return (a+b)/2;
         }
+
+        public bool IsEven(int number)
+        {
+            return number % 2 == 0;
+        }
     }
 }
